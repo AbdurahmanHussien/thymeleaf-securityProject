@@ -18,15 +18,13 @@
             <p class="lead text-center">Welcome to my company Home Page.</p>
             <hr>
              <!-- Add  a link to point to /leaders .. this for managers -->
-            <p>
-                <a th:href="@{/leaders}"> Leadership Meeting</a>
-                (Only for managers)
-            </p>
-            <hr>
-            <p>
-                <a th:href="@{/systems}"> IT Systems Meeting</a>
-                (Only for Administrators)
-            </p>
+
+                <a th:href="@{/leaders}" class="btn btn-primary">Leadership Meeting
+                <span class="text-light small">(Only for managers)</span>
+                </a>
+                <a th:href="@{/systems}" class="btn btn-primary">IT Systems Meeting
+                <span class="text-light small">(Only for Administrators)</span>
+                </a>
             <hr>
             <p>
                 <strong>User:</strong>
